@@ -29,7 +29,9 @@ Make sure you have Python 3.x installed on your machine. You will also need the 
 ## Installation
 
 You can install the required libraries using pip. Run the following command in your terminal :
-``` pip install pillow numpy matplotlib tqdm ```
+``` bash
+pip install pillow numpy matplotlib tqdm
+```
 
 ## Usage
 
@@ -37,15 +39,17 @@ You can install the required libraries using pip. Run the following command in y
    
 2. **Run the script** :
    Open a terminal and navigate to the directory containing `main.py`. Use the following command to execute the script :
-   ```python main.py```
+   ``` bash
+   python main.py
+   ```
 
-3. **Input Image Path** :
+4. **Input Image Path** :
 When prompted, enter the path to a grayscale image where you want to hide your message.
 
-4. **Enter Message** :
+5. **Enter Message** :
 After selecting an image, you will be prompted to enter the text you want to hide in the image.
 
-5. **View Results** :
+6. **View Results** :
 The modified image will be displayed, and the hidden message will be extracted and printed to the terminal.
 
 ## Example
